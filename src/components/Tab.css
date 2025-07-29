@@ -1,0 +1,17 @@
+.task-tab {
+    margin-top: 20px;
+    /* background-color: rgb(179, 184, 247); */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.task-tab p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+    padding: 10px 10px 10px 10px;
+}
+.task-tab p a:hover {
+    background-color: rgb(120, 120, 181);
+}

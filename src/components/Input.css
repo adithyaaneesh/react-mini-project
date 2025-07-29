@@ -1,0 +1,25 @@
+.add-task {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* background-color:  rgb(179, 184, 247); */
+    border-radius: 20px;
+}
+.add-task input {
+    border:2px solid gray;
+    border-radius: 8px;
+}
+.add-task button {
+    background: linear-gradient( rgb(227, 167, 227),rgb(184, 184, 225) );
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.add-task button:hover {
+    background: linear-gradient( rgb(221, 138, 221),rgb(144, 144, 223) );
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
