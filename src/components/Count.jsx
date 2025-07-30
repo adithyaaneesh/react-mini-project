@@ -2,11 +2,12 @@ import './Count.css'
 
 const CountCard = (props)=> {
 
+    const { type, count } = props
 
     return (
         <div className='count-card'>
-            <h3>{props.count}</h3>
-            <p>{props.type === 'active' ? 'Active tasks' : 'completed'}</p>
+            <h3>{count}</h3>
+            <p>{type}</p>
         </div>
     )
 }

@@ -12,6 +12,9 @@
     
     padding: 10px 10px 10px 10px;
 }
+.task-tab p a:active {
+    background-color: aqua;
+}
 .task-tab p a:hover {
     background-color: rgb(120, 120, 181);
 }
